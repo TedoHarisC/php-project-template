@@ -14,13 +14,11 @@ tools:
   php_mess_detector:
     config:
        ruleset: 'phpmd.xml'
-checks:
   php_code_sniffer:
     filter:
       excluded-paths: [ spec/*, examples/* ]
     config:
       ruleset_path: 'phpcs.xml'
-
   php_analyzer:
     filter:
       excluded-paths: [ 'spec/*', 'examples/*' ]
